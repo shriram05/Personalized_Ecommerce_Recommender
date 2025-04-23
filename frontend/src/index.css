@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* used to remove the scrollbar in the side of the page */
+body::-webkit-scrollbar {
+  display: none; 
+}
+
+/* navbar component */
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 10px;
+}
+
+.error {
+  color: red;
+  border: 2px solid red;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 0 auto;
+}
